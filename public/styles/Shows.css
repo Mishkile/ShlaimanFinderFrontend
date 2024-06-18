@@ -1,0 +1,35 @@
+.stages-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;  /* Make sure it's 100% to accommodate all children */
+}
+.MuiPagination-root button {
+    color: white; 
+ } 
+  
+
+.shows-container {
+    display: flex;
+    flex-direction: column;
+    overflow-x: auto;  /* Enable horizontal scrolling */
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    white-space: nowrap; /* Prevent wrapping to a new line */
+    padding-bottom: 10px; /* Optional: Add padding to avoid scrollbar overlap */
+    position: relative;  /* Ensure positioning context for sticky children */
+}
+.pagination-container {
+    
+    
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 20px;  /* Vertical sticking point */
+    left: 0;  /* Horizontal sticking point */
+    background: rgba(255, 255, 255, 0.288);  /* Solid background with slight transparency */
+    z-index: 1000;  /* Stay above other content */
+    transition: all 0.3s ease-in-out;  /* Smooth transition */
+    margin-top: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);  /* Optional: Adds shadow */
+    width:40.5em;
+}

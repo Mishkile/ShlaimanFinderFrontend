@@ -1,0 +1,16 @@
+/* UserLocation.css */
+.circle {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(206, 255, 255);
+    border-radius: 50%;
+    animation: pulse 2s linear infinite;
+    position: absolute;
+}
+
+@keyframes pulse {
+    to {
+        transform: scale(5);
+        opacity: 0;
+    }
+}

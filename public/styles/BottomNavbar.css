@@ -1,0 +1,13 @@
+.sticky-bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+background: rgba(255, 255, 255, 0.22); /* White background with 50% opacity */
+  background-image: url("../../src/assets/images/background2.png");
+ background-blend-mode: multiply; /* This blend mode is optional and can be changed based on the effect you want */
+
+  z-index: 1000; /* Make sure it's above other content */
+  box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.1); /* Optional: Add some shadow for better visibility */
+}

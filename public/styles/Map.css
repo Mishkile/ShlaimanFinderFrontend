@@ -1,0 +1,11 @@
+#mapSelection {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.map-page {
+    height: 110vh
+}

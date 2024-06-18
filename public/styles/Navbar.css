@@ -1,0 +1,7 @@
+.navbar {
+        background: rgba(255, 255, 255, 0.22); /* White background with 50% opacity */
+
+    background-image: url("../../src/assets/images/background2.png");
+        background-blend-mode: multiply; /* This blend mode is optional and can be changed based on the effect you want */
+    
+}

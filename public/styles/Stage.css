@@ -1,0 +1,14 @@
+.stage {
+    background-color: #FFF9C4;    
+    border: 1px solid #FF5722;
+    padding: 10px;
+    min-width: 130px;
+    background-color: #FFF9C4;
+}
+
+.stage h3 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #FF5722;
+}

@@ -1,0 +1,12 @@
+.profile-container {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(112, 34, 112, 0.566);
+    color: white;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.764);
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;    
+}
